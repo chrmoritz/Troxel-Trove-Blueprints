@@ -154,7 +154,7 @@ function importBps(){
   const Base64IO = require('troxel/coffee/Troxel.io');
   let isTTY = process.stdout.isTTY;
   let cursor = require('ansi')(process.stdout);
-  let barWidth = process.stdout.getWindowSize()[0] - 17;
+  let barWidth = process.stdout.write('\x1B[2J\x1B[0f');
   cursor.write('\n\n');
 
   function importBp(f, exp, len){
