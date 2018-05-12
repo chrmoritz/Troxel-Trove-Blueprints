@@ -83,7 +83,7 @@ function setup(){
 
 function extractBlueprints(){
   log.info('extracting 2 blueprint archives (could take a minute)...');
-  return Promise.map(['blueprints', 'blueprints/equipment/ring'], (archive) => {
+  return Promise.map(['blueprints', 'blueprints/equipment/ring', 'blueprints/fixtures', 'blueprints/frameworks'], (archive) => {
     return child_process.execFileAsync(devtool, ['-tool', 'extractarchive', archive, 'bpexport'], {timeout: 60000}).catch((err) => {
       if (err.killed || err.signal != null || err.code !== 1) {
         log.error(err);
