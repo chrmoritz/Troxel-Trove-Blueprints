@@ -4914,10 +4914,15 @@
     0,
     17
   ],
-  "c_mt_ufo_helicopter_chassis_t": [
+  "c_mt_ufo_helicopter_chassis": [
     11,
     9,
     59
+  ],
+  "c_mt_ufo_helicopter_chassis_s": [
+    15,
+    -17,
+    38
   ],
   "c_mt_ufo_helicopter_ui[ixitimmyixi]": [
     30,
@@ -22968,6 +22973,141 @@
     2,
     -3,
     6
+  ],
+  "fw_candy_candycane_large": [
+    8,
+    0,
+    2
+  ],
+  "fw_candy_lair_cake": [
+    14,
+    0,
+    14
+  ],
+  "fw_candy_lair_gumball": [
+    14,
+    0,
+    14
+  ],
+  "fw_candy_lair_popsicle": [
+    14,
+    0,
+    6
+  ],
+  "fw_candy_tree_01": [
+    2,
+    0,
+    3
+  ],
+  "fw_candy_tree_02": [
+    3,
+    0,
+    3
+  ],
+  "fw_cornerstone_house_trove4floor": [
+    7,
+    0,
+    8
+  ],
+  "fw_cornerstone_tower_radiant": [
+    7,
+    0,
+    8
+  ],
+  "fw_cornerstone_tower_shadow": [
+    7,
+    0,
+    8
+  ],
+  "fw_hubspring_hut_01": [
+    4,
+    0,
+    5
+  ],
+  "fw_hubsummer_shipshack_01": [
+    7,
+    0,
+    5
+  ],
+  "fw_hubturkeytopia_turkeyshrine_01": [
+    11,
+    0,
+    9
+  ],
+  "fw_mastery_castlegate": [
+    7,
+    0,
+    5
+  ],
+  "fw_spires_medium_arch": [
+    4,
+    0,
+    10
+  ],
+  "fw_spires_medium_bridge": [
+    7,
+    0,
+    18
+  ],
+  "fw_spires_medium_coin": [
+    17,
+    0,
+    17
+  ],
+  "fw_spires_medium_gong": [
+    5,
+    0,
+    11
+  ],
+  "fw_spires_small_arch": [
+    2,
+    0,
+    7
+  ],
+  "fw_spires_small_gazebo": [
+    7,
+    0,
+    7
+  ],
+  "fw_spires_small_gazebo_starter": [
+    7,
+    0,
+    7
+  ],
+  "fw_spires_small_tree_1": [
+    3,
+    0,
+    4
+  ],
+  "fw_spires_small_tree_2": [
+    2,
+    0,
+    4
+  ],
+  "fw_spires_small_tree_3": [
+    4,
+    0,
+    5
+  ],
+  "fw_undead_crypt": [
+    14,
+    0,
+    14
+  ],
+  "fw_undead_statue_shadowgiant": [
+    13,
+    0,
+    9
+  ],
+  "fw_undead_tomb_statue": [
+    8,
+    0,
+    7
+  ],
+  "fw_undead_tree_small": [
+    5,
+    0,
+    4
   ],
   "gm_prop_ctf_flagspawn_noteam": [
     5,
