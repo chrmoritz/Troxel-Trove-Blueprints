@@ -83,7 +83,7 @@ function setup(){
 
 function extractBlueprints(){
   log.info('extracting 2 blueprint archives (could take a minute)...');
-  return Promise.map(['blueprints', 'blueprints/equipment/ring'], (archive) => {
+  return Promise.map(['blueprints', 'blueprints/equipment/ring', 'blueprints/fixtures', 'blueprints/frameworks'], (archive) => {
     return child_process.execFileAsync(devtool, ['-tool', 'extractarchive', archive, 'bpexport'], {timeout: 60000}).catch((err) => {
       if (err.killed || err.signal != null || err.code !== 1) {
         log.error(err);
@@ -154,7 +154,7 @@ function importBps(){
   const Base64IO = require('troxel/coffee/Troxel.io');
   let isTTY = process.stdout.isTTY;
   let cursor = require('ansi')(process.stdout);
-  let barWidth = process.stdout.getWindowSize()[0] - 17;
+  let barWidth = process.stdout.write('\x1B[2J\x1B[0f');
   cursor.write('\n\n');
 
   function importBp(f, exp, len){
